@@ -1,0 +1,600 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"selec",
+				"selectLanguage"
+			],
+			[
+				"bac",
+				"background-image"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "static/index.html",
+			"settings":
+			{
+				"buffer_size": 2336,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1811,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 275.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Git: pu",
+				"Git: Pull"
+			],
+			[
+				"Git:comm",
+				"Git: Commit"
+			],
+			[
+				"Git:pus",
+				"Git: Push"
+			],
+			[
+				"GIt:",
+				"Git: Add All"
+			],
+			[
+				"Git: Pus",
+				"Git: Push"
+			],
+			[
+				"Git",
+				"Git: Add..."
+			],
+			[
+				"Package COntr",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"git",
+				"Github: Open File"
+			],
+			[
+				"github",
+				"Github: Repository"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:I",
+				"Package Control: Install Package"
+			],
+			[
+				"Laravel",
+				"Laravel Generate: Form"
+			],
+			[
+				"Laravel ",
+				"Laravel Generate: Test"
+			],
+			[
+				"Snippet: ",
+				"Snippet: COOKIE['…']"
+			]
+		],
+		"width": 437.0
+	},
+	"console":
+	{
+		"height": 112.0,
+		"history":
+		[
+			"clear",
+			"claer",
+			"clear",
+			"blade-example",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/works/globalcompanygroup.com",
+		"/var/www/works/globalcompanygroup.com/static"
+	],
+	"file_history":
+	[
+		"/var/www/works/globalcompanygroup.com/gcg.sublime-project",
+		"/var/www/works/globalcompanygroup.com/index.html",
+		"/var/www/jyc/sito/wp-content/plugins/responsive-contact-form/languages/aicontactform-it_IT.mo",
+		"/var/www/jyc/sito/wp-content/plugins/responsive-contact-form/languages/aicontactform-it_IT.po",
+		"/var/www/jyc/sito/wp-admin/includes/plugin.php",
+		"/var/www/jyc/sito/wp-includes/l10n.php",
+		"/var/www/jyc/sito/wp-content/plugins/responsive-contact-form/js/ai_script.js",
+		"/var/www/jyc/sito/wp-content/plugins/responsive-contact-form/ai-responsive-contact-form.php",
+		"/var/www/jyc/sito/wp-content/plugins/responsive-contact-form/include/userlist_export.php",
+		"/var/www/jyc/sito/wp-content/plugins/responsive-contact-form/include/ai_user_list.php",
+		"/var/www/jyc/sito/wp-content/plugins/responsive-contact-form/include/ai_settings.php",
+		"/var/www/jyc/sito/wp-content/plugins/responsive-contact-form/include/ai-contact-form-template.php",
+		"/var/www/jyc/sito/wp-content/plugins/responsive-contact-form/languages/aicontactform-de_DE.mo",
+		"/var/www/jyc/sito/wp-content/plugins/responsive-contact-form/languages/aicontactform-zh_CN.po",
+		"/var/www/jyc/sito/wp-content/plugins/responsive-contact-form/languages/aicontactform-zh_CN.mo",
+		"/var/www/jyc/sito/wp-content/plugins/responsive-contact-form/languages/aicontactform.pot",
+		"/var/www/jyc/sito/wp-content/themes/pique/assets/js/front-page.js",
+		"/home/carlo/Documenti/TrevisoSailing/BAK/trevisosailingclub.com/wp-content/plugins/sendit_NEW/libs/add-on/css-inliner.php",
+		"/home/carlo/Documenti/TrevisoSailing/BAK/trevisosailingclub.com/wp-content/plugins/sendit_NEW/libs/admin/admin-core.php",
+		"/home/carlo/Documenti/TrevisoSailing/BAK/trevisosailingclub.com/wp-content/plugins/sendit_NEW/libs/actions.php",
+		"/home/carlo/Documenti/TrevisoSailing/BAK/trevisosailingclub.com/wp-content/plugins/sendit_NEW/libs/add-on/template-manager.php",
+		"/var/www/laraproject/proj3/app/app.component.js",
+		"/var/www/laraproject/proj3/package.json",
+		"/var/www/laraproject/proj1/readme.md",
+		"/home/carlo/.config/sublime-text-3/Packages/User/Laravel 4 Artisan.sublime-commands",
+		"/var/www/git/manage/sql/tables.sql",
+		"/var/www/git/manage/classes/Article.php",
+		"/var/www/git/index.php",
+		"/var/www/git/manage/admin.php",
+		"/var/www/git/manage/config.php",
+		"/var/www/html/cms/manage/templates/css/style.css",
+		"/var/www/html/cms/index.php",
+		"/var/www/html/cms/manage/config.php",
+		"/var/www/html/cms/manage/classes/Article.php",
+		"/var/www/html/cms/manage/templates/homepage.php",
+		"/var/www/html/cms/manage/templates/include/header.php",
+		"/var/www/html/cms/manage/templates/archive.php",
+		"/var/www/html/cms/manage/templates/viewArticle.php",
+		"/var/www/html/cms/manage/templates/include/footer.php",
+		"/var/www/html/cms/manage/admin.php",
+		"/var/www/html/cms/manage/templates/admin/editArticle.php",
+		"/var/www/html/cms/manage/templates/admin/listArticles.php",
+		"/var/www/html/cms/manage/templates/admin/loginForm.php",
+		"/var/www/html/cms/manage/templates/css/bootstrap-theme.css",
+		"/var/www/html/cms/sql/tables.sql",
+		"/var/www/html/cms/templates/header.php",
+		"/var/www/html/cms/templates/footer.php",
+		"/var/www/html/cms/templates/homepage.php",
+		"/var/www/html/cms/templates/archive.php",
+		"/var/www/html/cms/templates/viewArticle.php",
+		"/home/carlo/Scrivania/laravel/l5todo/database/migrations/2015_05_12_204702_create_projects_and_tasks_tables.php",
+		"/home/carlo/Scrivania/laravel/l5todo/database/seeds/DatabaseSeeder.php",
+		"/home/carlo/Scrivania/laravel/l5todo/database/seeds/ProjectsTableSeeder.php",
+		"/home/carlo/Scrivania/laravel/l5todo/database/seeds/TaskTableSeeder.php",
+		"/home/carlo/Scrivania/laravel/l5todo/app/Http/routes.php",
+		"/home/carlo/Scrivania/laravel/l5todo/config/app.php",
+		"/home/carlo/Scrivania/laravel/l5todo/app/Http/Controllers/ProjectsController.php",
+		"/home/carlo/Scrivania/laravel/l5todo/app/Project.php",
+		"/home/carlo/Scrivania/laravel/l5todo/app/Task.php",
+		"/home/carlo/Scrivania/laravel/l5todo/resources/views/projects/index.blade.php",
+		"/home/carlo/Scrivania/laravel/l5todo/resources/views/projects/show.blade.php",
+		"/home/carlo/Scrivania/laravel/l5todo/resources/views/tasks/show.blade.php",
+		"/home/carlo/Scrivania/laravel/l5todo/resources/views/tasks/index.blade.php",
+		"/home/carlo/Scrivania/laravel/l5todo/resources/views/projects/create.blade.php",
+		"/home/carlo/Scrivania/laravel/l5todo/app/Http/Controllers/TasksController.php",
+		"/home/carlo/Scrivania/laravel/l5todo/app/Http/Controllers/WelcomeController.php",
+		"/home/carlo/Scrivania/laravel/l5todo/public/.htaccess",
+		"/home/carlo/Scrivania/laravel/l5todo/app/Http/Controllers/Controller.php",
+		"/home/carlo/Scrivania/laravel/l5todo/.env",
+		"/home/carlo/Scrivania/htdocs/laravel/l5todo/database/seeds/DatabaseSeeder.php",
+		"/home/carlo/Scrivania/htdocs/laravel/l5todo/database/seeds/TasksTableSeeder.php",
+		"/home/carlo/Scrivania/htdocs/laravel/l5todo/app/Project.php",
+		"/home/carlo/Scrivania/htdocs/laravel/l5todo/app/Task.php",
+		"/home/carlo/Scrivania/htdocs/laravel/l5todo/app/User.php",
+		"/home/carlo/Scrivania/htdocs/laravel/l5todo/app/Http/Controllers/ProjectsController.php",
+		"/home/carlo/Scrivania/htdocs/laravel/l5todo/resources/views/app.blade.php",
+		"/home/carlo/Scrivania/htdocs/laravel/l5todo/resources/views/projects/index.blade.php",
+		"/home/carlo/Scrivania/htdocs/laravel/l5todo/resources/views/projects/show.blade.php",
+		"/home/carlo/Scrivania/htdocs/laravel/l5todo/resources/views/tasks/show.blade.php",
+		"/home/carlo/Scrivania/htdocs/laravel/l5todo/config/app.php",
+		"/home/carlo/Scrivania/htdocs/laravel/l5todo/resources/views/projects/create.blade.php",
+		"/home/carlo/Scrivania/htdocs/laravel/l5todo/app/Http/Controllers/TasksController.php",
+		"/home/carlo/Scrivania/htdocs/laravel/l5todo/app/Http/Controllers/WelcomeController.php",
+		"/home/carlo/Scrivania/htdocs/laravel/l5todo/app/Http/routes.php",
+		"/home/carlo/Scrivania/htdocs/laravel/l5todo/composer.json",
+		"/home/carlo/Scrivania/htdocs/laravel/l5todo/database/seeds/ProjectsTableSeeder.php",
+		"/home/carlo/Scrivania/htdocs/laravel/l5todo/.env",
+		"/home/carlo/Scrivania/htdocs/laravel/l5todo/public/index.php",
+		"/home/carlo/Scrivania/htdocs/laravel/l5todo/database/migrations/2015_05_08_162051_create_projects_and_tasks_tables.php",
+		"/home/carlo/Scrivania/htdocs/laravel/l5todo/database/migrations/2014_10_12_100000_create_password_resets_table.php",
+		"/home/carlo/Scrivania/htdocs/laravel/l5todo/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/home/carlo/Scrivania/htdocs/laravel/l5todo/.env.example",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/server.php",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/tests/ExampleTest.php",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/tests/TestCase.php",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/storage/logs/laravel-2015-04-29.log",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/storage/framework/sessions/07c99bcdb4a6ad5ab1f63cfe46dc0e8c911a7a9a",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/storage/framework/sessions/29a951120206dc7c8fa1fe38a436559ceb9c6042",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/storage/framework/sessions/987ce00631733d933c1a3e8a9a9cf62047f6b5da",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/database/seeds/DatabaseSeeder.php",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/storage/framework/views/0de5da9c6f023e62121fa84301dd0115",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/storage/framework/views/11b71a7f4cadc725031b92efdd7d2f27",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/storage/framework/views/622cc2af4a6d1477f08d9c262dd7fbd9",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/storage/framework/views/b38cea055509d339e8cfb2438147f14d",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/config/database.php",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/config/filesystems.php",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/config/mail.php",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/config/cache.php",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/config/app.php",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/bootstrap/autoload.php",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/bootstrap/app.php",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/app/User.php",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/app/Http/Controllers/HomeController.php",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/app/Http/Controllers/Controller.php",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/app/Http/routes.php",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/app/Http/Controllers/WelcomeController.php",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/app/Http/Controllers/Auth/AuthController.php",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/app/Http/Controllers/Auth/PasswordController.php",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/app/Http/Middleware/Authenticate.php",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/app/Http/Middleware/RedirectIfAuthenticated.php",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/app/Http/Middleware/VerifyCsrfToken.php",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/app/Http/Requests/Request.php",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/app/Services/Registrar.php",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/public/favicon.ico",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/public/.htaccess",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/public/index.php",
+		"/home/carlo/Scrivania/htdocs/laravel/laravel/public/css/app.css",
+		"/home/carlo/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 127.0,
+		"where_history":
+		[
+			"/var/www/jyc/sito",
+			"/var/www/jyc/sito/wp-content",
+			"/var/www/jyc/sito",
+			"/var/www/jyc/sito/wp-content/plugins/responsive-contact-form",
+			"/var/www/jyc/sito"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pique-recent",
+			"<time",
+			"pique-recent-posts",
+			"n load_plugin_textdomain",
+			"n load_plugin_textdomain()",
+			"load_plugin_textdomain()",
+			"load_plugin_textdomain",
+			"EMAIL ID",
+			"pique-panel-content",
+			"pageTitle",
+			"articles",
+			"newArticle",
+			"changesSaved",
+			"ADMIN_PASSWORD",
+			"\\HtmlServiceProvider"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "static/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"function_name_status_row": 0,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1811,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"function_name_status_row": 0,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 88.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 86.0
+	},
+	"pinned_build_system": "",
+	"project": "gcg.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/var/www/git/cms.sublime-project"
+			]
+		],
+		"width": 285.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 266.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
