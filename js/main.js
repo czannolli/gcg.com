@@ -9,34 +9,31 @@ var coorLA = [ '70%', '80%', '0%'];
 var coorLB = [ '61%', '72%', '15%' ];
 var zindexLB = [ '5', '3', '1' ];
 
-arrowsLinks.find('div.arl').each(function(){
-	$(this).css('margin-right', ($(this).attr('data-number') * 10) + 'px');
-});
-
-d.one('webkitAnimationEnd oanimationend msAnimationEnd animationend',
-  function(e) {
-
-});
-
 $(document).ready(function(){
-    move();
-    d.one('webkitAnimationEnd oanimationend msAnimationEnd animationend',
-    function(e) {
-        showArrow();
-    });
-
+    if ($(window).width() >= 992) {
+        linksPosition();
+        move();
+        d.one('webkitAnimationEnd oanimationend msAnimationEnd animationend',
+        function(e) {
+            showArrow();
+        });
+    }
 });
 
 $(window).on('resize', function(){
-    move();
+    clearForResize();
+    if ($(window).width() >= 992) {
+        linksPosition();
+        move();
+        showArrow();
+    }
 });
 
 function move(){
     a.css('height', b.height());
     d.css('height', $(window).height() / 100 * 80);
     b.css('position', 'absolute').animate({ left: a.width() - b.width() });
-    c.css('position', 'absolute').animate({ left: a.width() - c.width() });
-    $('.content > .img-cover').css('top', (($(window).height() - $('.content > .img-cover').height()) / 2) + 'px');
+    c.css('position', 'absolute').animate({ right: 0 });
 }
 
 function showArrow(){
@@ -49,4 +46,21 @@ function showArrow(){
 		let n = links.attr('data-number') - 1;
     	links.css('z-index', zindexLB[n]).animate({ opacity: 0.25, left: coorLB[n] }, {duration: 500, easing: 'easeOutBounce', complete: function(){ $(this).hide().css('left', coorLB[n]); }});
     });
+}
+
+function linksPosition(){
+        arrowsLinks.find('div.arl').each(function(){
+            $(this).css('margin-right', ($(this).attr('data-number') * 10) + 'px');
+        });
+}
+
+function clearForResize(){
+    arrows.unbind("mouseenter mouseleave");
+    arrowsLinks.find('div.arl').css('margin-right', 0);
+    a.css('height', 'auto');
+    d.css('height', 'auto');
+    b.css( {'position' : 'relative', 'left' : '0px' } );
+
+    c.css( { 'position' : 'relative', 'left' : '0px' } );
+    b.css('left','0px');
 }
