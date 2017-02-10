@@ -70,6 +70,7 @@ function linksPosition(){
 
 function clearForResize(){
     arrows.unbind("mouseenter mouseleave");
+    arrowsLinks.css('left',0).css('opacity', 1);
     arrowsLinks.find('div.arl').css('margin-right', 0);
     a.css('height', 'auto');
     d.css('height', 'auto');
