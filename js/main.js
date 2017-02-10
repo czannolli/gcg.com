@@ -12,28 +12,41 @@ var zindexLB = [ '5', '3', '1' ];
 $(document).ready(function(){
     if ($(window).width() >= 992) {
         linksPosition();
-        move();
+        move(true);
         d.one('webkitAnimationEnd oanimationend msAnimationEnd animationend',
         function(e) {
             showArrow();
         });
     }
+    
+    $('.arrow-links-title').click(function(){
+    	$(this).next('.arrow-links').slideToggle();
+    	if ($(this).find('.glyphicon').hasClass('glyphicon-triangle-top'))
+    		$(this).find('.glyphicon').removeClass('glyphicon-triangle-top');
+    	else
+    		$(this).find('.glyphicon').addClass('glyphicon-triangle-top');
+    });
 });
 
 $(window).on('resize', function(){
     clearForResize();
     if ($(window).width() >= 992) {
         linksPosition();
-        move();
+        move(false);
         showArrow();
     }
 });
 
-function move(){
+function move(start){
     a.css('height', b.height());
     d.css('height', $(window).height() / 100 * 80);
-    b.css('position', 'absolute').animate({ left: a.width() - b.width() });
-    c.css('position', 'absolute').animate({ right: 0 });
+    if (start) {
+	    b.css('position', 'absolute').animate({ left: a.width() - b.width() });
+	    c.css('position', 'absolute').animate({ right: 0 });
+    } else {
+    	b.css('position', 'absolute').css('left', 'auto').css('right', 0);
+	    c.css('position', 'absolute').css('right', 0);
+    }
 }
 
 function showArrow(){
@@ -60,7 +73,7 @@ function clearForResize(){
     a.css('height', 'auto');
     d.css('height', 'auto');
     b.css( {'position' : 'relative', 'left' : '0px' } );
-
-    c.css( { 'position' : 'relative', 'left' : '0px' } );
+    c.css( { 'position' : 'relative', 'right' : '0px' } );
     b.css('left','0px');
 }
+
