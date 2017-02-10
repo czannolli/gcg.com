@@ -11,12 +11,13 @@ var zindexLB = [ '5', '3', '1' ];
 
 $(document).ready(function(){
     if ($(window).width() >= 992) {
+    	move(true);
         linksPosition();
-        move(true);
         d.one('webkitAnimationEnd oanimationend msAnimationEnd animationend',
-        function(e) {
-            showArrow();
-        });
+        	function(e) {
+            	showArrow();
+        	}
+        );
     }
     
     $('.arrow-links-title').click(function(){
