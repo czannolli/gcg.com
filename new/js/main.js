@@ -10,6 +10,7 @@ var coorLB = [ '61%', '72%', '15%' ];
 var zindexLB = [ '5', '3', '1' ];
 
 $(document).ready(function(){
+    setTimeout(function() { document.getElementById('audio').play(); }, 2000)
     if ($(window).width() >= 992) {
     	move(true);
         linksPosition();
@@ -19,7 +20,7 @@ $(document).ready(function(){
         	}
         );
     }
-    
+
     $('.arrow-links-title').click(function(){
     	$(this).next('.arrow-links').slideToggle();
     	if ($(this).find('.glyphicon').hasClass('glyphicon-triangle-top'))
