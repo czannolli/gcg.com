@@ -43,7 +43,8 @@ function move(start){
     a.css('height', b.height());
     h = $(window).height() / 100 * 75;
     h2 = $('.arrow2').height() + $('.arrow1').height() + $('.title').height() + 20;
-    d.css('height', (h <= h2) ? h : h2);
+    
+    d.css('height', h2);
     c.css('top', b.offset().top + b.height() - 5);
     if (start) {
 	    b.css('position', 'absolute').animate({ left: a.width() - b.width() });
