@@ -2,6 +2,7 @@ var a =  $('.title');
 var b =  $('.title .part-1');
 var c =  $('.title .part-2');
 var d =  $('.arrow-container');
+var e =  $('.container');
 var arrows = $('.arrow-container > div');
 var arrowImgs = $('.arrow-container img');
 var arrowsLinks = $('.arrow-container > div > .arrow-links');
@@ -10,7 +11,7 @@ var coorLB = [ '61%', '72%', '15%' ];
 var zindexLB = [ '5', '3', '1' ];
 
 $(document).ready(function(){
-    setTimeout(function() { document.getElementById('audio').play(); }, 2000)
+    setTimeout(function() { document.getElementById('audio').play(); }, 2000);
     if ($(window).width() >= 992) {
     	move(true);
         linksPosition();
@@ -43,12 +44,13 @@ function move(start){
     a.css('height', b.height());
     h = $(window).height() / 100 * 75;
     h2 = $('.arrow2').height() + $('.arrow1').height() + $('.title').height() + 20;
-    
+
     d.css('height', h2);
     c.css('top', b.offset().top + b.height() - 5);
     if (start) {
 	    b.css('position', 'absolute').animate({ left: a.width() - b.width() });
 	    c.css('position', 'absolute').animate({ right: 0 });
+        e.css('background-image', 'url(/new/img/sfondo2.png)').css('border','2px solid grey');
     } else {
     	b.css('position', 'absolute').css('left', 'auto').css('right', 0);
 	    c.css('position', 'absolute').css('right', 0);

@@ -99,7 +99,7 @@ html, body{
     height: 100%;
 }
 .content{ width:100%; overflow:hidden; background:url(/new/img/background_02.jpg) top center no-repeat; background-size:contain; }
-.container{ max-width: 1400px; height: 100%; background:url(/new/img/sfondo.png) top center no-repeat; background-size:cover; position: relative;}
+.container{ max-width: 1400px; height: 100%; background-position:top center; background-repeat: no-repeat; background-size:cover; position: relative; }
 .img-cover{ position:absolute; top:0; left:0; }
 .title{ padding-top: 15px; }
 .arrow-container{ position: relative; }
@@ -235,7 +235,6 @@ div.share-block .twitter a{ line-height: 53px; }
 }
 
 @media only screen and (min-width: 992px) {
-	 .container{ border:2px solid grey; }
     /* Style adjustments for viewports that meet the condition */
     .title .part-1 { display:inline-block;  position:absolute; left:-100%; font-size:3.5em; font-weight: 500; -webkit-transition-property: all;  -webkit-transition-duration: 3s; }
     .title .part-2{ display:inline-block;  font-weight: 200; -webkit-transition-property: all;  -webkit-transition-duration: 3s; position:absolute; right:-200%; top:0;  }
@@ -246,7 +245,7 @@ div.share-block .twitter a{ line-height: 53px; }
     img[class^="arrow"]{   width:42%; }
     img.arrow1{ top: 5%; left: 32%; z-index:6; position: absolute; }
     img.arrow2{ top: 37%; z-index: 4; position: absolute; right: 16%; width:43%;}
-    img.arrow3{ top: 22%; z-index: 2; position: absolute; left: 19%; width:30%; } 
+    img.arrow3{ top: 22%; z-index: 2; position: absolute; left: 19%; width:30%; }
 /*     img.arrow1{ top: 4%; left: 32%; z-index:6; position: absolute; }
     img.arrow2{ top: 40%; right: 20%; z-index: 4; position: absolute; }
     img.arrow3{ top: 30%; left: 13%; z-index: 2; position: absolute; }  */
