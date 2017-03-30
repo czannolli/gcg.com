@@ -48,9 +48,9 @@ function move(start){
     d.css('height', h2);
     c.css('top', b.offset().top + b.height() - 5);
     if (start) {
+        e.css('background-image', 'url(/new/img/sfondo.jpg)').css('border','2px solid grey');
 	    b.css('position', 'absolute').animate({ left: a.width() - b.width() });
 	    c.css('position', 'absolute').animate({ right: 0 });
-        e.css('background-image', 'url(/new/img/sfondo2.png)').css('border','2px solid grey');
     } else {
     	b.css('position', 'absolute').css('left', 'auto').css('right', 0);
 	    c.css('position', 'absolute').css('right', 0);
