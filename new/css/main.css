@@ -243,9 +243,9 @@ div.share-block .twitter a{ line-height: 53px; }
 	div.arrow-links-title{ display:none;}
 
     img[class^="arrow"]{   width:42%; }
-    img.arrow1{ top: 5%; left: 32%; z-index:6; position: absolute; }
-    img.arrow2{ top: 37%; z-index: 4; position: absolute; right: 16%; width:43%;}
-    img.arrow3{ top: 22%; z-index: 2; position: absolute; left: 19%; width:30%; }
+    img.arrow1{ top: 5%; left: 32%; z-index:6; position: absolute; min-height:200px; }
+    img.arrow2{ top: 37%; z-index: 4; position: absolute; right: 16%; width:43%; min-height:1px;}
+    img.arrow3{ top: 22%; z-index: 2; position: absolute; left: 19%; width:30%; min-height:1px;}
 /*     img.arrow1{ top: 4%; left: 32%; z-index:6; position: absolute; }
     img.arrow2{ top: 40%; right: 20%; z-index: 4; position: absolute; }
     img.arrow3{ top: 30%; left: 13%; z-index: 2; position: absolute; }  */
