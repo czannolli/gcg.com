@@ -121,6 +121,23 @@ div.share-block .twitter a{ line-height: 53px; }
 
 .copy{ font-size:0.8em; text-align: center; padding-top:10px; }
 
+.write-logo{
+  width: 34%;
+  top: 45%;
+  position: absolute;
+  left: 36%;
+  z-index:6;
+}
+
+.write-logo img{
+  opacity: 0;
+}
+
+.write-logo:hover img{
+  opacity:1;
+}
+
+
 @keyframes spin {
    0% {
 	opacity:0;
